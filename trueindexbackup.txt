@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ISOGO HOTEL</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+
+<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/ulol.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+<!-- header -->
+<div class ="social">
+<ul>
+<li><a href = "http://youtube.com"><img src ="yt.png" height= "30px" 
+
+width = "30px"></a></li>
+<li><a href = "http://pinterest.com"><img src ="pinte.png" height= 
+
+"30px" width = "30px" ></a></li>
+<li><a href = "http://plus.google.com"><img src ="gplus.png" height= 
+
+"30px" width = "30px" ></a></li>
+<li><a href = "http://twitter.com"><img src ="twit.png" height= "30px" 
+
+width = "30px" ></a></li>
+<li><a href = "http://facebook.com"><img src ="fb.png" height= 
+
+"30px" width = "30px" ></a></li>
+
+
+</ul>
+<div class = "kontak">
+	    <ul>
+		<li><img src = "message.png" width = "15px" 
+
+height = "13px"> <span class = "info"> roswellht123@yahoo.com
+
+</span></li>
+        <li><img src = "tel.png" width = "15px" height = "15px"><span 
+
+class = "info"> +639123456789</span></li>
+		</ul>
+		</div> <!--end of kontak-->
+<form class = "search-form">
+<input type = "text" placeholder ="Search">
+<button> Search</button>
+</form>
+       </div> <!--end of socialicons-->
+
+</div>
+	<header>
+	
+	<nav>
+
+		<div class="menu-icon">
+			<i class="fa fa-bars fa-2x"></i>
+		</div>
+		
+		<ul>
+<span class = "response"><h1><span>Roswell</span><span class 
+
+="gold">HOTEL</span><p class="ydr">Your Dream 
+
+Hotel</p></h1></a></span>
+           
+			<li><a href="newindex.html#contact">CONTACT 
+
+US<span></span><span></span></a></li>
+			<li><a 
+
+href="visitors.html">VISITORS<span></span><span></span></a></li>
+			<li><a 
+
+href="rooms.html">BEDROOMS<span></span><span></span></a></li>
+			<li><a 
+
+href="foods.html">FOODS<span></span><span></span></a></li>
+			<li><a 
+
+href="gallery.html">GALLERY<span></span><span></span></a></li>
+			<li><a href="about.html">ABOUT 
+
+US<span></span><span></span></a></li>
+			<li><a 
+
+href="newindex.html">HOME<span></span><span></span></a></li>
+			
+		</ul>
+		
+	</nav>
+</header>
+
+	<script type="text/javascript" src="js/jquery-
+
+3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+<!-- //header -->
+		<!-- banner -->
+	<div id="home" class="thebanner">
+		<!-- banner-text -->
+		<div class="slider">
+			<div class="callbacks_container">
+				<ul class="rslides callbacks callbacks1" id="slider4">
+					<li>
+						<div class="unangphotobanner">
+
+							<div class="container">
+								<div class="lettering-isogomoto">
+								<h4>Roswell HOTEL</h4>
+									<h3>We know what you love</h3>
+										<p>Welcome to our hotels</p>
+									<div class="ito-learnmore ">
+				<a href="#" >BOOK NOW</a>
+			</div>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="unangphotobanner dawaphotobanner">
+							<div class="container">
+								<div class="lettering-isogomoto">
+								<h4>Roswell HOTEL</h4>
+									<h3>Stay with friends & families</h3>
+										<p>Come & enjoy precious moment with us</p>
+									<div class="ito-learnmore ">
+				<a href="#" >BOOK NOW</a>
+			</div>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="unangphotobanner tatlophotobanner">
+							<div class="container">
+								<div class="lettering-isogomoto">
+								<h4>Roswell HOTEL</h4>
+								<h3>want luxurious vacation?</h3>
+										<p>Get accommodation today</p>
+									<div class="ito-learnmore ">
+											<a href="#" >BOOK NOW</a>
+										</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+			<!--banner Slider starts Here-->
+		</div>
+
+		<div class="banner-bottom">
+		<div class="container">	
+			<div class="tagline-sa-baba-ng-banner">
+				<h3><span>Experience a good stay, enjoy fantastic offers</span> Find our friendly welcoming reception</h3>
+			</div>
+			<div class="ilalim-grids">
+				<ul class="cbp-ig-grid">
+					<li>
+						<div class="grid-effect">
+							<span class="cbp-ig-icon kama-pic"></span>
+							<h4 class="cbp-ig-title">BEDROOMS</h4>
+							<span class="cbp-ig-category">Roswell HT</span>
+						</div>
+					</li>
+					<li>
+						<div class="grid-effect">
+							<span class="cbp-ig-icon balkonahe-pic"></span>
+							<h4 class="cbp-ig-title">VIEW BALCONY</h4>
+							<span class="cbp-ig-category">Roswell HT</span>
+						</div>
+					</li>
+					<li>
+						<div class="grid-effect">
+							<span class="cbp-ig-icon tasa-pic"></span>
+							<h4 class="cbp-ig-title">LARGE CAFE</h4>
+							<span class="cbp-ig-category">Roswell HT</span>
+						</div>
+					</li>
+					<li>
+						<div class="grid-effect">
+							<span class="cbp-ig-icon waypay-pic"></span>
+							<h4 class="cbp-ig-title">WIFI COVERAGE</h4>
+							<span class="cbp-ig-category">Roswell HT</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+<!-- contact -->
+<section class="upperfooter-kontak" id="contact">
+	<div class="container">
+		<div class="col-lg-6 col-md-6 col-sm-6 middle-foot-contact" data-aos="flip-left">
+			<div class="kontaks-us">
+				<h4>Contact Us</h4>
+				<p class="newsletsignup">Sign Up For Our News Letters</p>
+				<form  method="post" name="sentMessage" id="contactForm" >
+					<div class="form-group">
+                        
+                            <label class="contact-p1">Country:</label>
+                             <select name="title" class="form-control" required >
+												<option value selected ></option>
+                                                <option value="Philippines">PHILIPPINES</option>
+                                                <option value="USA">USA</option>
+                                                <option value="FRANCE">FRANCE</option>
+                                                <option value="AUSTRALIA">AUSTRALIA</option>
+												<option value="GERMANY">GERMANY</option>
+												<option value="KOREA">KOREA</option>
+												<option value="JAPAN">JAPAN</option>
+												 <option value="THAILAND">THAILAND</option>
+                                                <option value="VIETNAM">VIETNAM</option>
+                                                <option value="AFRICA">AFRICA</option>
+												<option value="JAMAICA">JAMAICA</option>
+												<option value="ZIMBABWE">ZIMBABWE</option>
+												<option value="NEW ZEALAND">NEW ZEALAND</option>
+                                            </select>
+                         
+                       
+                    </div>	
+                    <div class="control-group form-group">
+                        
+                            <label class="contact-p1">Phone Number:</label>
+                            
+							
+                                            <input name="fname" class="form-control" required>
+						
+                    </div>
+					 <div class="control-group form-group">
+                        
+                            <label class="contact-p1">Fullname:</label>
+                            
+                   <input name="fname" class="form-control" required>
+
+	                        
+							
+						
+                    </div>
+                    <div class="control-group form-group">
+                        
+                            <label class="contact-p1">Email Address:</label>
+                        <input name="fname" class="form-control" required>
+						
+						
+                    </div>
+                    
+                    
+                    <input type="submit" name="sub" value="Send Now" class="btn btn-primary">	
+				</form>
+			
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6 middle-foot-contact-right" data-aos="flip-right">
+			<h4>Connect With Us</h4>
+			<p class="kontak-highlights"><strong>Phone :</strong>+639123456789</p>
+			<p class="kontak-highlights"><strong>Email :</strong> <a href="roswellht123@yahoo.com">roswellht123@yahoo.com</a></p>
+			<p class="kontak-highlights"><strong>Address :</strong> New Baker St., Pasig City, Philippines</p>
+																
+			<div class="social-division footer-sa-icons">
+				<ul class="social-icons3">
+
+<li><a href = "http://youtube.com"><img src ="yt.png" height= "30px" 
+
+width = "30px" ></a></li>
+<li><a href = "http://pinterest.com"><img src ="pinte.png" height= 
+
+"30px" width = "30px" ></a></li>
+<li><a href = "http://plus.google.com"><img src ="gplus.png" height= 
+
+"30px" width = "30px" ></a></li>
+<li><a href = "http://twitter.com"><img src ="twit.png" height= "30px" 
+
+width = "30px" ></a></li>
+<li><a href = "http://facebook.com"><img src ="fb.png" height= 
+
+"30px" width = "30px" ></a></li>
+
+
+
+								
+							</ul>
+			</div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.7905052320443!2d-77.84987248482734!3d39.586871613613056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c9f6a80ccf0661%3A0x7210426c67abc40!2sVirginia+Welcome+Center%2FSafety+Rest+Area!5e0!3m2!1sen!2sin!4v1485760915662" ></iframe>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+<!-- /contact -->
+			<div class="copy">
+		        <p>© 2018 Roswell HOTEL . All Rights Reserved | Design by <a href="#">Mark/Denise</a> </p>
+		    </div>
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- contact form -->
+<script src="js/jqBootstrapValidation.js"></script>
+
+<!-- /contact form -->	
+<!-- Calendar -->
+		<script src="js/jquery-ui.js"></script>
+	
+
+<script src="js/responsiveslides.min.js"></script>
+			<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider4").responsiveSlides({
+							auto: true,
+							pager:true,
+							nav:false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+			</script>
+		</div>
+	</body>
+	</html>

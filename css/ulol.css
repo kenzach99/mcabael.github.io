@@ -1,0 +1,627 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+*{
+	padding:0px;
+	margin:0px;
+}
+.social{
+float:left;
+width:100%;
+background:white;
+
+}
+.social ul li{
+list-style-type:none;
+float:left;
+
+}
+.social ul li a{
+display:block;
+padding:5px;
+}
+.social ul li a:hover{
+transition:background 0.5s linear;
+background-color:#ff0;
+border-radius:2em;
+}
+
+nav ul{
+	background-color: #00316b;
+	overflow: hidden;
+	color: #fff;
+	padding: 0;
+	text-align: center;
+	transition: max-height 0.5s;
+    width:100%;
+	
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 30px 20px;
+	float:right;
+font-family: Cambria;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: inherit;
+	position:relative;
+	
+}
+
+
+li a:hover{
+color:#ff0;
+}
+
+li a span:first-child:before{
+content: '';
+position:absolute;
+top:0;
+left:0;
+width:8px;
+height:8px;
+background:transparent;
+border-top: 2px solid #ff0;
+border-left: 2px solid #ff0;
+transition:.2s;
+opacity:0;
+}
+li a span:first-child:after{
+content: '';
+position:absolute;
+top:0;
+right:0;
+width:8px;
+height:8px;
+background:transparent;
+border-top: 2px solid #ff0;
+border-right: 2px solid #ff0;
+transition:.2s;
+opacity:0;
+}
+
+
+
+
+li a span:last-child:before{
+content: '';
+position:absolute;
+bottom:0;
+left:0;
+width:8px;
+height:8px;
+background:transparent;
+border-bottom: 2px solid #ff0;
+border-left: 2px solid #ff0;
+transition:.2s;
+opacity:0;
+}
+li a span:last-child:after{
+content: '';
+position:absolute;
+bottom:0;
+right:0;
+width:8px;
+height:8px;
+background:transparent;
+border-bottom: 2px solid #ff0;
+border-right: 2px solid #ff0;
+transition:.2s;
+opacity:0;
+}
+
+
+li a:hover span:first-child:before{
+top:-10px;
+left:-10px;
+opacity:1;
+
+}
+li a:hover span:first-child:after{
+top:-10px;
+right:-10px;
+opacity:1;
+
+}
+
+
+li a:hover span:last-child:before{
+bottom:-10px;
+left:-10px;
+opacity:1;
+
+}
+li a:hover span:last-child:after{
+bottom:-10px;
+right:-10px;
+opacity:1;
+
+}
+
+
+.menu-icon{
+	width: 100%;
+	background: #00316b;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	color: #fff;
+	display: none;
+	text-align: center;
+	
+}
+ .gold{
+	 color:gold;
+ }
+ /* LOGO LEFT BOI*/
+ 
+ 
+ .response{
+        
+    
+    padding-top:8px;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 5px; 
+    position: relative;
+    font-weight: bold;
+	
+	float:left;
+	margin-left:3px;
+	font-family: Adobe Garamond Pro;
+    }
+    
+.ydr{
+    text-transform: uppercase;
+    letter-spacing: 5.7px;
+    font-size: 11px;
+    color: #c79f07;
+    text-shadow: 0px 1px 3px #454a47;
+    font-family:sans-serif;
+    font-weight: 600;
+    line-height:3.5em;
+	font-family: Adobe Garamond Pro;
+	
+}
+ /* END LOGO LEFT BOI*/
+ /*media queries sa navigation*/
+@media (max-width: 1120px){
+	nav ul{
+		max-height: 0px;
+	}
+
+	.showing{
+		max-height: 30em;
+	}
+
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding:15px;
+		text-align: center;
+	}
+  .response{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+		text-align: center;
+	}
+	.menu-icon{
+		display: block;
+		
+	}
+
+
+}
+/*media queries 1*/
+@media screen and (max-width: 1330px){
+
+
+
+
+
+	/* start of previous media queries*/
+	.search-form{
+ width:100%;
+text-align:center;
+
+}
+input[type=text], button{
+width:100%;
+padding:30px;
+
+}
+button{
+position:absolute;
+border-radius:5px;
+
+}
+
+
+.kontak{
+	margin-top:10px;
+	margin-left:500px;
+float:left;
+}
+
+.info{
+	margin-top:10px;
+	font-family:tahoma;
+	font-size:15px;
+}
+.kontak ul li{	
+	padding-right:10px;
+}
+	/*HERE TO CODE THE WHOLE INDEX FIRST*/
+	
+
+.buton{
+	width:15%;
+	position:absolute;
+}
+
+}
+/*media queries 2*/
+
+@media screen and (max-width: 1329px){
+.buton{
+	width:13%;
+	position:absolute;
+	font-size:13px;
+}
+/* start of previous media queries*/	
+	.slideshow-container{
+	position:absolute;	
+		
+	}
+.search-form{
+width:100%;
+text-align:center;
+
+}
+input[type=text], button{
+width:100%;
+padding:30px;
+
+}
+button{
+position:absolute;
+border-radius:5px;
+
+}
+
+.social{
+
+width:100%;
+}
+.social ul li{
+list-style-type:none;
+float:left;
+padding-left:10px;
+
+}
+.social ul li a{
+display:block;
+
+
+}
+.social ul li a:hover{
+transition:background 0.5s linear;
+background-color:red;
+border-radius:2em;
+}
+
+
+}
+/*ANOTHER MEDIA QUERIES FOR BOOK NOW!*/
+@media screen and (max-width: 1300px){
+	.buton{
+		width:10%;
+		position:absolute;
+		height:10%;
+		font-size:12px;
+		
+	}
+}
+@media screen and (max-width: 1250px){
+	.buton{
+		width:9%;
+		position:absolute;
+		height:10%;
+		font-size:12px;
+		
+	}
+}
+	@media screen and (max-width: 1240px){
+	.buton{
+		width:9%;
+		position:absolute;
+		height:10%;
+		font-size:12px;
+		
+	}
+}
+/* END OF media queries 2*/
+.search-form{
+margin-top:5px;
+float:right;
+margin-right:0px;
+padding-bottom:3px;
+}
+
+input[type=text], button{
+padding:7px;
+border:1px solid #00316b; ;
+font-size:16px;
+font-family:sans-serif;
+}
+button{
+position:relative;
+float:right;
+background:gold;
+cursor:pointer;
+}
+
+.kontak{
+	margin-top:10px;
+	margin-left:500px;
+float:left;
+}
+
+.info{
+	margin-top:10px;
+	font-family:tahoma;
+	font-size:15px;
+}
+.kontak ul li{	
+	padding-right:10px;
+}
+
+
+}	
+
+/*media queries 3*/
+@media screen and (max-width: 990px){
+
+	/* start of previous media queries*/
+
+.social{
+
+width:100%;
+}
+.social ul li{
+list-style-type:none;
+float:left;
+padding-left:110px;
+
+}
+.social ul li a{
+display:block;
+
+
+}
+.social ul li a:hover{
+transition:background 0.5s linear;
+background-color:red;
+border-radius:2em;
+}
+
+.kontak{
+	margin-top:0px;
+	margin-left:89px;
+float:left;
+}
+
+.info{
+	margin-top:0px;
+	font-family:tahoma;
+	font-size:15px;
+}
+.kontak ul li{	
+	padding-right:10px;
+}
+}
+/*media queries 4*/
+@media screen and (max-width: 800px){
+	/* start of previous media queries*/
+
+.social{
+
+width:100%;
+}
+.social ul li{
+list-style-type:none;
+float:left;
+padding-left:85px;
+
+}
+.social ul li a{
+display:block;
+
+
+}
+.social ul li a:hover{
+transition:background 0.5s linear;
+background-color:red;
+border-radius:2em;
+}
+
+.kontak{
+	margin-top:0px;
+	margin-left:80px;
+float:left;
+}
+
+.info{
+	margin-top:0px;
+	font-family:tahoma;
+	font-size:15px;
+}
+.kontak ul li{	
+	padding-right:10px;
+}
+}
+/*media queries 5*/
+
+@media screen and (max-width: 799px){
+
+	/* start of previous media queries*/
+
+}
+/*media queries 6*/
+@media screen and (max-width: 699px){
+
+	/* start of previous media queries*/
+
+.social{
+
+width:100%;
+}
+.social ul li{
+list-style-type:none;
+float:left;
+padding-left:58px;
+
+}
+.social ul li a{
+display:block;
+
+
+}
+.social ul li a:hover{
+transition:background 0.5s linear;
+background-color:red;
+border-radius:2em;
+}
+
+.kontak{
+	margin-top:0px;
+	margin-left:39px;
+float:left;
+}
+
+.info{
+	margin-top:0px;
+	font-family:tahoma;
+	font-size:15px;
+}
+.kontak ul li{	
+	padding-right:10px;
+}
+}
+
+/*media queries 7*/
+@media screen and (max-width: 599px){
+	/* start of previous media queries*/
+
+.social{
+
+width:100%;
+}
+.social ul li{
+list-style-type:none;
+float:left;
+padding-left:45px;
+
+}
+.social ul li a{
+display:block;
+
+
+}
+.social ul li a:hover{
+transition:background 0.5s linear;
+background-color:red;
+border-radius:2em;
+}
+
+.kontak{
+	margin-top:0px;
+	margin-left:39px;
+float:left;
+}
+
+.info{
+	margin-top:0px;
+	font-family:tahoma;
+	font-size:15px;
+}
+.kontak ul li{	
+	padding-right:10px;
+}
+}
+/*media queries 8*/
+
+/*media queries 9*/
+@media screen and (max-width: 299px){
+	/* start of previous media queries*/
+
+.kontak{
+	margin-top:10px;
+	width:100%;
+}
+.info{
+	margin-top:10px;
+			width:100%;
+			color:black;
+}
+.social{
+
+width:100%;
+}
+.social ul li{
+list-style-type:none;
+float:left;
+padding-left:9px;
+
+}
+.social ul li a{
+display:block;
+
+
+}
+.social ul li a:hover{
+transition:background 0.5s linear;
+background-color:red;
+border-radius:2em;
+}
+.kontak ul li{	
+	float:right;
+		width:100%;
+		margin-right:0.1px;
+}
+
+.response{
+        
+    
+    padding: 0;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 5px; 
+    position: relative;
+    font-weight: bold;
+	line-height:1.6em;
+	float:left;
+	margin-left:3px;
+    }
+    
+.ydr{
+    text-transform: uppercase;
+    letter-spacing: 5.7px;
+    font-size: 11px;
+    color: #c79f07;
+    text-shadow: 0px 1px 3px #454a47;
+    font-family:sans-serif;
+    font-weight: 600;
+    line-height:1.7em;
+	
+}
+}
+
